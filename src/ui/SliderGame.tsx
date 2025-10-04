@@ -28,7 +28,7 @@ export default function SliderGame() {
           exit={{ opacity: 0 }}
           style={{ backgroundImage: `url(${SLIDES[currSlide].src})` }}
           key={currSlide}
-          className="min-h-[450px] p-5 w-1/1  rounded-2xl  bg-cover bg-[center] bg-no-repeat ">
+          className="min-h-[450px] p-5 w-1/1  rounded-2xl   bg-cover bg-[center] bg-no-repeat ">
           <h2 className="font-black">{SLIDES[currSlide].title}</h2>
           <h5>{SLIDES[currSlide].desc}</h5>
         </motion.div>

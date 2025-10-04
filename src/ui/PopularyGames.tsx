@@ -19,7 +19,7 @@ export default function PopularyGames() {
           </button>
         </div>
       </section>
-      <ul className="grid gap-5 grid-cols-[repeat(6,200px)]">
+      <ul className="grid gap-5 max-md:grid-cols-3 max-sm:grid-cols-2 grid-cols-[repeat(6,200px)]">
         {GAMES.map((val, i) => (
           <Game val={val} key={i} />
         ))}
