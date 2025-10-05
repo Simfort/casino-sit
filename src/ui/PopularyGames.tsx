@@ -7,7 +7,7 @@ import Game from "./Game";
 
 export default function PopularyGames() {
   return (
-    <section className="w-1/1">
+    <section className="w-1/1 mt-[50px]">
       <section>
         <div className="flex gap-5">
           <h3 className=" flex gap-2 items-center font-black">
@@ -19,7 +19,7 @@ export default function PopularyGames() {
           </button>
         </div>
       </section>
-      <ul className="grid gap-5 max-md:grid-cols-3 max-sm:grid-cols-2 grid-cols-[repeat(6,200px)]">
+      <ul className="grid gap-5  max-lg:grid-cols-3 max-sm:grid-cols-2 grid-cols-[repeat(6,200px)]">
         {GAMES.map((val, i) => (
           <Game val={val} key={i} />
         ))}

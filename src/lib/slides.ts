@@ -9,7 +9,7 @@ const SLIDES: Slides[] = [
   {
     title: "Кэшбэк до 20%",
     desc: "Не забудь вернуть свои деньги каждый понедельник",
-    src: "https://kometa555.com/assets/Kometa-promo-homepage-banner-_1_.webp",
+    src: "https://cdn.culture.ru/images/930c76bf-547b-53b2-9e21-9ae40e165b79",
   },
   {
     title: "Быстрые безлимитные выводы",

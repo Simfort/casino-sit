@@ -14,7 +14,7 @@ export default function YourChange() {
         Ваш выбор для побед
       </h2>
       <ol className="flex gap-10 justify-center flex-wrap">
-        <div className="flex items-center border-[#547e6a] justify-center border-2 bg-[rgba(0,0,0,0.49)] p-5 rounded-2xl flex-col gap-2 w-[400px] text-center">
+        <div className="flex items-center border-[#547e6a] justify-center border-2 bg-[rgba(0,0,0,0.49)] p-5 rounded-2xl flex-col gap-2 max-sm:w-[300px] w-[400px] text-center">
           <Image
             alt=""
             src={sundux}
@@ -28,7 +28,7 @@ export default function YourChange() {
             от игры!
           </p>
         </div>
-        <div className="flex border-[#547e6a] items-center justify-center border-2 bg-[rgba(0,0,0,0.49)] p-5 rounded-2xl flex-col gap-2 w-[400px] text-center">
+        <div className="flex border-[#547e6a] items-center justify-center border-2 bg-[rgba(0,0,0,0.49)] p-5 rounded-2xl flex-col gap-2 w-[400px] max-sm:w-[300px] text-center">
           {" "}
           <Image
             alt=""
@@ -42,7 +42,7 @@ export default function YourChange() {
             Испытайте молниеносные выплаты и наслаждайтесь игрой без задержек!
           </p>
         </div>{" "}
-        <div className="flex border-[#547e6a] items-center justify-center border-2 bg-[rgba(0,0,0,0.49)] p-5 rounded-2xl flex-col gap-2 w-[400px] text-center">
+        <div className="flex border-[#547e6a] items-center justify-center border-2 bg-[rgba(0,0,0,0.49)] p-5 rounded-2xl flex-col gap-2 w-[400px] max-sm:w-[300px] text-center">
           {" "}
           <Image
             alt=""

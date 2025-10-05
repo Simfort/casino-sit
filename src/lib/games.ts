@@ -62,7 +62,7 @@ const GAMES: Game[] = [
   },
   {
     title: "RIP City",
-    image: "https://kometa555.com/assets/big_bad_wolf_pigs_of_steel.webp",
+    image: "https://kometa555.com/assets/rip_city.webp",
     author: "HacksawGaming",
   },
 ];
