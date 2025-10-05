@@ -1,7 +1,11 @@
+import Image from "next/image";
+import logo from "../../public/1win.png";
+
 export default function Header() {
   return (
     <header className="fixed max-sm:flex-col gap-5 z-10  w-1/1 p-5 flex items-center justify-around bg-[linear-gradient(to_bottom,#1b373c,#009fa5)]">
-      <h2 className="font-black  ">Golden Empire</h2>
+      <Image alt="logo" src={logo} className=" w-[100px] " />
+
       <nav className="flex gap-10">
         <button className="border-2 border-[#5ffffc] transition-colors duration-150 hover:bg-[rgba(0,0,0,0.2)] rounded-full p-2 min-w-[100px] w-[150px]">
           Вход
